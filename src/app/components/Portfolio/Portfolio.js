@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function PortfolioBlock(){
     return(
-        <section className="max-sm:mt-8 max-sm:px-2 sm:max-lg:mt-18 mt-24">
+        <section id="portfolioBlock" className="max-sm:mt-8 max-sm:px-2 sm:max-lg:mt-18 mt-24">
             <h2 className="max-sm:text-3xl sm:max-lg:text-4xl text-6xl font-bold text-[#999999] mb-8">Портфолио</h2>
             <div className="max-sm:mb-8 max-lg:w-full max-lg:flex-col flex justify-between items-center mb-12 cursor-pointer text-[#6D6D6D] hover:text-[#003030] transition-colors duration-300 hover:duration-300">
                 <Image className="max-sm:mb-4 max-lg:w-auto sm:max-lg:h-[500px] md:max-lg:mb-6 w-[40%] h-auto object-contain" src={Work1} alt="Работа 1"/>

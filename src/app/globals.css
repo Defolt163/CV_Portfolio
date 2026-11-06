@@ -15,6 +15,14 @@
   font-display: swap;
 }
 
+input,
+textarea,
+select {
+  border: solid 1px #383838;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -60,5 +68,25 @@ body {
   .work_block_special_items,
   .work_block_special_items p {
     font-size: 12px;
+  }
+}
+
+.content_404{
+  height: calc(100dvh - 136px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (width < 64rem) {
+  .content_404{
+    height: calc(100dvh - 208px);
+  }
+}
+@media (width < 40rem) {
+  .content_404{
+    height: calc(100dvh - 264px);
   }
 }

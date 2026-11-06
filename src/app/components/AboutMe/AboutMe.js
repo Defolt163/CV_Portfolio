@@ -2,11 +2,11 @@ import Link from "next/link";
 
 export default function AboutMe(){
     return(
-        <section className="max-sm:mt-12 max-sm:mb-4 sm:max-lg:mt-18 mt-24 mb-24 text-[#6D6D6D]">
+        <section id="aboutBlock" className="max-sm:mt-12 max-sm:mb-4 sm:max-lg:mt-18 mt-24 mb-24 text-[#6D6D6D]">
             <h2 className="max-sm:text-3xl sm:max-lg:text-4xl text-6xl font-bold text-[#999999] mb-8">Обо мне</h2>
             <p className="mb-2">Мой интерес к разработке начался ещё в школе. В седьмом классе я попытался создать собственный сайт для публикации видео. Тогда я написал его в документе Word, но заставить его работать через localhost так и не получилось. Сейчас вспоминаю это с улыбкой, но именно тогда у меня появилось желание не просто пользоваться готовыми продуктами, а создавать свои.</p>
             <p className="mb-2">Позже, во время обучения в колледже связи на направлении «Телекоммуникационные технологии», я начал самостоятельно изучать HTML, CSS и JavaScript по курсам Udemy. Постепенно мне стало интересно, что можно сделать с помощью более сложных инструментов, и я перешёл к React. Так увлечение превратилось в практику, а мой первый коммерческий проект появился ещё во время изучения этой технологии.</p>
-            <div className="sm:max-lg:h-[200px] h-[286px] relative w-full bg-[url(/images/dolomite-alps-italy.jpg)] bg-cover bg-bottom bg-no-repeat"> 
+            <div className="sm:max-lg:h-[200px] h-[286px] relative w-full bg-[url(/images/dolomite-alps-italy.jpeg)] bg-cover bg-bottom bg-no-repeat"> 
                 {/* <div className="w-[400px] h-[200px] absolute right-28 -bottom-28 bg-amber-500 float-right"></div> */}
             </div>
             <div className="flow-root mt-2">

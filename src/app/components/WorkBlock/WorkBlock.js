@@ -1,6 +1,6 @@
 export default function WorkBlock(){
     return(
-        <section className="max-sm:px-2 sm:max-lg:mt-18 mt-24">
+        <section id="storyBlock" className="max-sm:px-2 sm:max-lg:mt-18 mt-24">
             <h2 className="max-sm:text-3xl sm:max-lg:text-4xl text-6xl font-bold text-[#999999]">История</h2>
             <div className="max-sm:grid-cols-1 grid grid-cols-2 gap-8 mt-8">
                 <div>
@@ -29,7 +29,7 @@ export default function WorkBlock(){
                 </div>
                 <div>
                     <h3 className="max-sm:text-2xl max-sm:text-center sm:max-lg:text-xl text-3xl">Колледж связи ПГУТИ</h3>
-                    <p className="max-sm:text-center sm:max-lg:text-sm">Май • 2022</p>
+                    <p className="max-sm:text-center sm:max-lg:text-sm">Сентябрь 2019 • Май 2022</p>
                 </div>
                 <div>
                     <h3 className="max-sm:text-base sm:max-lg:text-base mb-2 text-xl">Специальность: Инфокоммуникационные сети и системы связи</h3>
